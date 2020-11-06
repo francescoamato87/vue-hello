@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 20px;
+  background-image: url(./img/vueback.jpg);
+  background-size: cover;
+}
+
+
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.title{
+  color: #fff;
+  padding: 10px;
+}
+
+.textarea{
+  width: 350px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.img{
+  padding-top: 30px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueJS</title>
+    <link rel="stylesheet" href="style.css">
+<!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body>
+
+<div id="app">
+  <h1 v-bind:class="myClasses ">{{ titolo }}</h1>
+  <main>
+    <textarea class="textarea" type="text" placeholder="Lascia un commento qui..!" v-model="message"></textarea>
+  </main>
+
+  <p>{{ message }}</p>
+
+  <img class = "img" v-bind:src="image" :alt="title">
+</div>
+
+
+
+
+
+
+
+              <!-- JavaScript -->
+    <script src="javascript.js"></script>
+  </body>
+</html>
